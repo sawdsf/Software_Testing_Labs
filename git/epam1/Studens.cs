@@ -10,7 +10,7 @@ namespace epam1
         static string[][] group;
         static void outFile()
         {
-            string[] readText = File.ReadAllLines("group.txt");//считываем все строки в массив
+            string[] readText = File.ReadAllLines("..\\..\\..\\group.txt");//считываем все строки в массив
             group = new string[readText.Length][];
             int i = 0;
             foreach (var line in readText)//перебираем строки массива
