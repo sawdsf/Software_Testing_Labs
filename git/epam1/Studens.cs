@@ -4,8 +4,7 @@ using System.IO;
 using System.Text;
 
 namespace epam1
-{//второй коммит
-
+{//первый коммит
     static class Studens
     {
         static string[][] group;
