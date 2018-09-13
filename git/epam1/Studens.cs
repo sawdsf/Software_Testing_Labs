@@ -7,7 +7,7 @@ namespace epam1
     static class Studens
     {
 
-        static string[,] group = new string[10, 6]
+        static string[,] group = new string[,]
         {
             {"1","Павел","4","5","5","6" },
             {"2","Артём","3","4","6","7" },
@@ -19,6 +19,7 @@ namespace epam1
             {"8","Влад","3","2","4","5" },
             {"9","Алла","5","8","9","7" },
             {"10","Юрий","9","8","3","4" },
+            {"11","Егор","9","8","3","4" },
         };
         public static void vivod_sr_st(string name)
         {
