@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 
 namespace epam1
-{
+{//странные изменения
     static class Studens
     {
         static string[][] group;
