@@ -6,6 +6,7 @@ namespace epam1
     {
         static void Main(string[] args)
         {
+            Studens.allstudents();
             while (1 > 0)
             {
                 Console.WriteLine("1-средний по студенту:2-средний по группе");
